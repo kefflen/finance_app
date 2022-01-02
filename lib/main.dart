@@ -25,6 +25,8 @@ class MyHomePage extends StatelessWidget {
         title: const Text('Projeto inicial')
       ),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           Container(
             width: double.infinity,
